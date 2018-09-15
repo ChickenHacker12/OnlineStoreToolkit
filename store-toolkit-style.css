@@ -1,0 +1,125 @@
+/* Online Store Toolkit */
+/* Created by Chicken Studios */
+/* Licensed under GPL 3.0 */
+
+/* Product large box */
+
+.item-info {
+font-family: "Arial", sans-serif;
+
+width: 50%;
+height: 26em;
+
+background-color: white;
+border: .10em solid #A0A0A0;
+border-radius: .30em;
+
+padding: .30em;
+margin: auto;
+margin-top: .15em;
+margin-bottom: .15em;
+}
+
+.item-info:hover {
+
+}
+
+.item-info-sidebar {
+width: 25%;
+min-width: 15%;
+height: 100%;
+border-left: .10em solid #A0A0A0;
+padding: .15em;
+float: right;
+
+
+}
+
+.item-info-contents {
+width: 50%;
+min-height: 50%;
+display: inline-block;
+
+}
+
+/* Inner objects main box*/
+.item-info.h1, .item-info.h2 {
+font-family: "Arial", sans-serif;
+color: black;
+padding: .5em;
+
+max-width: 30%;
+}
+
+.item-info.p, .item-info-sidebar.li {
+font-family: "Arial", sans-serif;
+color: black;
+padding: .25em;
+
+max-width: 30%;
+display: inline;
+}
+
+.item-info.li {
+overflow-x; auto;
+}
+
+.item-info.img {
+border: .5em solid #A0A0A0;
+
+padding: .5em;
+border-radius: .5em;
+
+max-width: 30%;
+}
+
+/* List item icons */
+
+.item-li-new {
+list-style-image: url('new-icon.png');
+}
+
+.item-li-used {
+list-style-image: url('used-icon.png');
+}
+.item-li-no-returns {
+list-style-image: url('no-returns-icon.png');
+}
+.item-li-download {
+list-style-image: url('software-icon.png');
+}
+
+.item-info-price {
+color: #007F0E;
+font-family: "Arial", sans-serif;
+}
+
+/* Buttons */
+
+.item-buy-btn {
+border: .5em;
+padding: .5em;
+border-radius: .25em;
+background-color: #00960F;
+margin-bottom: .25em;
+color: white;
+
+}
+.item-buy-btn:hover {
+background-color: #007F0E;
+cursor: pointer;
+}
+
+.item-other-btn {
+border: .5em;
+padding: .5em;
+border-radius: .25em;
+background-color: #C0C0C0;
+margin-bottom: .25em;
+color: black;
+
+}
+.item-other-btn:hover {
+background-color: #A0A0A0;
+cursor: pointer;
+}
